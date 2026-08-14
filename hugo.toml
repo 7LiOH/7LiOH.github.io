@@ -1,0 +1,12 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = '7LiOH'
+theme = "PaperMod"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$'], ['\\[', '\\]']]
+          inline = [['$', '$'], ['\\(', '\\)']]
