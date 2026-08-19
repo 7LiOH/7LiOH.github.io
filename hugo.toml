@@ -2,9 +2,15 @@ baseURL = 'https://7LiOH.github.io/'
 locale = 'en-us'
 title = '7LiOH'
 theme = "PaperMod"
+defaultContentLanguage = 'zh'
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        useEmbedded = 'fallback'
+    [markup.goldmark.renderer]
+      unsafe = true 
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
         enable = true
