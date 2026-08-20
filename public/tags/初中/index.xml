@@ -6,12 +6,12 @@
     <description>Recent content in 初中 on 7LiOH</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Aug 2026 23:37:15 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 23:37:15 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E5%88%9D%E4%B8%AD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>实验探究：测量酒精灯的热效率</title>
       <link>http://localhost:1313/posts/2026-08-19/</link>
-      <pubDate>Fri, 14 Aug 2026 23:37:15 +0800</pubDate>
+      <pubDate>Wed, 19 Aug 2026 23:37:15 +0800</pubDate>
       <guid>http://localhost:1313/posts/2026-08-19/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本实验非教材实验，过程难免缺乏严谨性，仅供参考&lt;/p&gt;
@@ -20,14 +20,82 @@
 &lt;p&gt;测量酒精灯的热效率&lt;/p&gt;
 &lt;h2 id=&#34;实验原理&#34;&gt;实验原理&lt;/h2&gt;
 $$ \eta = \dfrac{Q_\text{有用}}{Q_\text{总}} \times 100\% $$&lt;h2 id=&#34;实验器材&#34;&gt;实验器材&lt;/h2&gt;
-&lt;p&gt;酒精灯、试管、量筒、胶头滴管、托盘天平与砝码、温度计、秒表、铁架台&lt;/p&gt;
+&lt;p&gt;酒精灯、陶土网、圆底烧瓶、量筒、胶头滴管、托盘天平与砝码、温度计、秒表、铁架台&lt;/p&gt;
 &lt;h2 id=&#34;实验思路&#34;&gt;实验思路&lt;/h2&gt;
-&lt;p&gt;已知水的比热容 $c$，让酒精灯加热试管中的水，通过测定一段时间内水温度的变化量，计算水吸收的热量；用天平称量实验前后酒精质量的变换量，进而计算酒精燃烧放出的热量&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;已知水的比热容 $c_\text{水}$，用酒精灯加热圆底烧瓶中的水，通过测定一段时间内水温度的变化量 $\Delta T$，计算水吸收的热量&lt;/li&gt;
+&lt;li&gt;已知酒精的热值 $q_\text{酒精}$，用天平称量实验前后酒精质量的变换量 $\Delta m$，进而计算酒精燃烧放出的热量&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;实验过程&#34;&gt;实验过程&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;用量筒和&lt;strong&gt;胶头滴管&lt;/strong&gt;量取体积为 $V$ 的水，并倾倒入圆底烧瓶中&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;由下至上&lt;/strong&gt;组装器材，&lt;strong&gt;点燃酒精灯&lt;/strong&gt;并调节陶土网高度，使酒精灯&lt;strong&gt;外焰&lt;/strong&gt;加热陶土网，温度计测温泡&lt;strong&gt;浸入&lt;/strong&gt;水中，且&lt;strong&gt;不触碰容器底或容器壁&lt;/strong&gt;。称量此时酒精灯的质量为 $m_1$，记录此时温度计的示数为 $T_1$&lt;/li&gt;
+&lt;li&gt;点燃酒精灯，使酒精灯加热容器中的水，观察到温度计示数上升；当温度计的示数为&lt;strong&gt;合适的&lt;/strong&gt;选定温度值 $T_2$（$T_1 &lt; T_2 &lt; 100^{\circ}\mathrm{C}, T_2 - T_1 \ge 20^{\circ}\mathrm{C}$）时，停止加热，&lt;strong&gt;撤走并盖灭&lt;/strong&gt;酒精灯。称量此时酒精灯的质量为 $m_2$&lt;/li&gt;
+&lt;li&gt;计算得酒精灯的热效率
+
+$$ \eta = \dfrac{c_\text{水}\rho_\text{水}V(T_2 - T_1)}{q_\text{酒精}(m_1 - m_2)} \times 100\%$$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;重复实验&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div style=&#34;text-align: center;&#34;&gt;
-    &lt;img src=&#34;./images/P1.png&#34; alt=&#34;图1&#34; width=&#34;50%&#34;&gt;
+    &lt;img src=&#34;./images/P1.png&#34; alt=&#34;图1&#34; style=&#34;width: 25%; display: block; margin: 0 auto;&#34;&gt;
 &lt;/div&gt;
-&lt;hr&gt;</description>
+&lt;h2 id=&#34;数据处理&#34;&gt;数据处理&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;实验次数&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;水体积 $V$ / m³&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;初始质量 $m_1$ / kg&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;初始温度 $T_1$ / ℃&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;末质量 $m_2$ / kg&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;末温度 $T_2$ / ℃&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;热效率 $\eta$&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;3&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;误差分析&#34;&gt;误差分析&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;酒精灯火焰的热量只有一部分被水吸收，很大一部分散失到空气中了，因而会使测得的热效率偏小&lt;/li&gt;
+&lt;li&gt;陶土网吸收了一部分热量，导致测得的热效率偏小&lt;/li&gt;
+&lt;li&gt;酒精燃烧不完全，放出热量偏小，导致测得的热效率偏小&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;改进实验&#34;&gt;改进实验&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;可使用试管代替圆底烧瓶，防止陶土网吸热&lt;/li&gt;
+&lt;li&gt;可使用玻璃棒搅拌液体，使水受热均匀&lt;/li&gt;
+&lt;li&gt;可使用温度传感器更精准地测量温度差&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;实验结论&#34;&gt;实验结论&lt;/h2&gt;
+&lt;p&gt;酒精灯的热效率一般在 $10\%$ 到 $30\%$ 之间&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
