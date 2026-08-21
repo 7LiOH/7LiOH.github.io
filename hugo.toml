@@ -21,7 +21,6 @@ defaultContentLanguage = 'zh'
   ShowToc = true
   TocOpen = true
   ShowBreadCrumbs = true
-  logoLink = "/posts/" 
   [params.profileMode]
     enabled = true
     title = "7LiOH"
