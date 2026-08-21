@@ -29,7 +29,7 @@ $$ \bm{a} \times \bm{b} = -\bm{b} \times \bm{a} $$
     <img src="./images/P2.png" alt="图2" style="width: 40%; display: block; margin: 0 auto;">
 </div>
 
-$$ k\bm{a} \times \bm{b} = \bm{a} \times k\bm{a} = k(\bm{a} \times \bm{b}) $$
+$$ k\bm{a} \times \bm{b} = \bm{a} \times k\bm{b} = k(\bm{a} \times \bm{b}) $$
 
 <div style="text-align: center;">
     <img src="./images/P3.png" alt="图3" style="width: 45%; display: block; margin: 0 auto;">
@@ -60,19 +60,19 @@ $$ \bm{M} = \bm{r} \times \bm{F} $$
     <img src="./images/P4.png" alt="图4" style="width: 30%; display: block; margin: 0 auto;">
 </div>
 
-理论分析可得到带电粒子在纸入磁场中所受洛伦兹力的方向为**相对带电粒子运动方向向左**
+理论分析可得到带电粒子在纸入磁场中所受洛伦兹力的方向为**相对带电粒子运动方向垂直向左**
 
 <div style="text-align: center;">
     <img src="./images/P5.png" alt="图5" style="width: 40%; display: block; margin: 0 auto;">
 </div>
 
-同样地，带电粒子在纸出磁场中所受洛伦兹力的方向为**相对带电粒子运动方向向右**
+同样地，带电粒子在纸出磁场中所受洛伦兹力的方向为**相对带电粒子运动方向垂直向右**
 
 <div style="text-align: center;">
     <img src="./images/P6.png" alt="图5" style="width: 40%; display: block; margin: 0 auto;">
 </div>
 
-进而可判断带电粒子在匀强磁场中作**匀速圆周运动**，受到洛伦兹力
+进而可判断带电粒子在匀强磁场中作**匀速圆周运动**，受到恒垂直于速度方向的洛伦兹力
 
 $$ F = qvB\sin\theta = qvB\sin\dfrac{\pi}{2} = qvB $$
 
