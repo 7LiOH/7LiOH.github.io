@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>文章 | 7LiOH</title>
 <meta name="keywords" content="">
 <meta name="description" content="文章 - 7LiOH">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/">
+<link rel="canonical" href="https://7LiOH.github.io/posts/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://7LiOH.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://7LiOH.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://7LiOH.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://7LiOH.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://7LiOH.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
-<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/">
+<link rel="alternate" type="application/rss+xml" href="https://7LiOH.github.io/posts/index.xml" title="rss">
+<link rel="alternate" hreflang="zh" href="https://7LiOH.github.io/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -65,13 +65,36 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="https://7LiOH.github.io/posts/">
+  <meta property="og:site_name" content="7LiOH">
+  <meta property="og:title" content="文章">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="文章">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "文章",
+      "item": "https://7LiOH.github.io/posts/"
+    }
+  ]
+}
 </script>
 </head>
 <body class="list" id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="7LiOH (Alt + H)">7LiOH</a>
+            <a href="https://7LiOH.github.io/" accesskey="h" title="7LiOH (Alt + H)">7LiOH</a>
             <div class="logo-switches">
                 <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
@@ -97,12 +120,12 @@
         </div>
         <ul id="menu" class="menu">
             <li>
-                <a href="http://localhost:1313/posts/" title="文章">
+                <a href="https://7LiOH.github.io/posts/" title="文章">
                     <span class="active">文章</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="分类">
+                <a href="https://7LiOH.github.io/tags/" title="分类">
                     <span>分类</span>
                 </a>
             </li>
@@ -124,6 +147,25 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">从向量叉乘理解左手定则
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>向量叉乘 向量有两种乘法：点乘与叉乘
+对平面 $\alpha$ 上两向量 $\bm{a}$、$\bm{b}$，有
+$$ \bm{a} \cdot \bm{b} = |\bm{a}| \cdot |\bm{b}| \cdot \cos\theta $$ $$ |\bm{a} \times \bm{b}| = |\bm{a}| \cdot |\bm{b}| \cdot \sin \theta $$其中 $\bm{a} \cdot \bm{b}$ 为标量，$\bm{a} \times \bm{b}$ 为向量，方向由右手螺旋定则确定，且垂直于 $\bm{a}$、$\bm{b}$
+向量叉乘具备如下性质：
+$$ \bm{a} \times \bm{b} = -\bm{b} \times \bm{a} $$ $$ k\bm{a} \times \bm{b} = \bm{a} \times k\bm{b} = k(\bm{a} \times \bm{b}) $$ 实际上，高中教材中的公式并未完全采用矢量写法，矢量点乘与叉乘也未作区分
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-08-20 15:08:44 +0800 CST'>August 20, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to 从向量叉乘理解左手定则" href="https://7LiOH.github.io/posts/2026-08-20/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">实验探究：测量酒精灯的热效率
     </h2>
   </header>
@@ -137,7 +179,7 @@
   <footer class="entry-footer">
 
 <span title='2026-08-19 23:37:15 +0800 CST'>August 19, 2026</span></footer>
-  <a class="entry-link" aria-label="post link to 实验探究：测量酒精灯的热效率" href="http://localhost:1313/posts/2026-08-19/"></a>
+  <a class="entry-link" aria-label="post link to 实验探究：测量酒精灯的热效率" href="https://7LiOH.github.io/posts/2026-08-19/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -150,19 +192,22 @@
 以下为对起止点在同一水平面的探究（不考虑空气阻力）
 可将斜抛运动分解为水平方向的匀速直线运动与竖直方向的竖直上抛运动进行分析
 规定水平向右为 $x$ 轴正方向，竖直向上为 $y$ 轴正方向，设该物体向右抛出
-设物体初速度为 $v$，与水平面夹角为 $\theta$，易得初速度 $v$ 的水平与竖直分量为 $$ v_x = v\cos\theta $$ $$ v_y = v\sin\theta $$由于平抛运动具有对称性，所以当物体的竖直速度与物体初竖直速度矢量和为 $0$ 时，物体落地
-由 $v = v_0 &#43; at$ 得， $$ -v_y = v_y - gt $$ $$ t = \dfrac{2v_y}{g} = \dfrac{2v\sin\theta}{g} $$将 $t = \dfrac{2v\sin\theta}{g}$ 代入 $v = \dfrac{x}{t}$ 得 $$ v_x = \frac{x}{t} $$ $$ x = v_xt = v\cos\theta \cdot \dfrac{2v\sin\theta}{g} = \dfrac{2v^2\sin\theta\cos\theta}{g} $$即转换为求关于 $x$ 与 $\theta$ 的函数的最大值
+设物体初速度为 $v$，与水平面夹角为 $\theta$，易得初速度 $v$ 的水平与竖直分量为
+$$ v_x = v\cos\theta $$ $$ v_y = v\sin\theta $$由于平抛运动具有对称性，所以当物体的竖直速度与物体初竖直速度矢量和为 $0$ 时，物体落地
+由 $v = v_0 &#43; at$ 得，
+$$ -v_y = v_y - gt $$ $$ t = \dfrac{2v_y}{g} = \dfrac{2v\sin\theta}{g} $$将 $t = \dfrac{2v\sin\theta}{g}$ 代入 $v = \dfrac{x}{t}$ 得
+$$ v_x = \frac{x}{t} $$ $$ x = v_xt = v\cos\theta \cdot \dfrac{2v\sin\theta}{g} = \dfrac{2v^2\sin\theta\cos\theta}{g} $$即转换为求关于 $x$ 与 $\theta$ 的函数的最大值
 ...</p>
   </div>
   <footer class="entry-footer">
 
 <span title='2026-08-14 23:37:15 +0800 CST'>August 14, 2026</span></footer>
-  <a class="entry-link" aria-label="post link to 探究最佳抛射角问题" href="http://localhost:1313/posts/2026-08-14/"></a>
+  <a class="entry-link" aria-label="post link to 探究最佳抛射角问题" href="https://7LiOH.github.io/posts/2026-08-14/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">7LiOH</a></span> · 
+        <span>&copy; 2026 <a href="https://7LiOH.github.io/">7LiOH</a></span> · 
 
     
     

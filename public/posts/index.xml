@@ -2,17 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>文章 on 7LiOH</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://7LiOH.github.io/posts/</link>
     <description>Recent content in 文章 on 7LiOH</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 23:37:15 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Aug 2026 15:08:44 +0800</lastBuildDate>
+    <atom:link href="https://7LiOH.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从向量叉乘理解左手定则</title>
+      <link>https://7LiOH.github.io/posts/2026-08-20/</link>
+      <pubDate>Thu, 20 Aug 2026 15:08:44 +0800</pubDate>
+      <guid>https://7LiOH.github.io/posts/2026-08-20/</guid>
+      <description>&lt;h2 id=&#34;向量叉乘&#34;&gt;向量叉乘&lt;/h2&gt;
+&lt;p&gt;向量有两种乘法：&lt;strong&gt;点乘&lt;/strong&gt;与&lt;strong&gt;叉乘&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对平面 $\alpha$ 上两向量 $\bm{a}$、$\bm{b}$，有&lt;/p&gt;
+$$ \bm{a} \cdot \bm{b} = |\bm{a}| \cdot |\bm{b}| \cdot \cos\theta $$&lt;p&gt;
+&lt;/p&gt;
+$$ |\bm{a} \times \bm{b}| = |\bm{a}| \cdot |\bm{b}| \cdot \sin \theta $$&lt;p&gt;其中 $\bm{a} \cdot \bm{b}$ 为标量，$\bm{a} \times \bm{b}$ 为向量，方向由右手螺旋定则确定，且垂直于 $\bm{a}$、$\bm{b}$&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+    &lt;img src=&#34;./images/P1.png&#34; alt=&#34;图1&#34; style=&#34;width: 40%; display: block; margin: 0 auto;&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;向量叉乘具备如下性质：&lt;/p&gt;
+$$ \bm{a} \times \bm{b} = -\bm{b} \times \bm{a} $$&lt;div style=&#34;text-align: center;&#34;&gt;
+    &lt;img src=&#34;./images/P2.png&#34; alt=&#34;图2&#34; style=&#34;width: 40%; display: block; margin: 0 auto;&#34;&gt;
+&lt;/div&gt;
+$$ k\bm{a} \times \bm{b} = \bm{a} \times k\bm{b} = k(\bm{a} \times \bm{b}) $$&lt;div style=&#34;text-align: center;&#34;&gt;
+    &lt;img src=&#34;./images/P3.png&#34; alt=&#34;图3&#34; style=&#34;width: 45%; display: block; margin: 0 auto;&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;实际上，高中教材中的公式并未完全采用矢量写法，矢量点乘与叉乘也未作区分&lt;/p&gt;</description>
+    </item>
     <item>
       <title>实验探究：测量酒精灯的热效率</title>
-      <link>http://localhost:1313/posts/2026-08-19/</link>
+      <link>https://7LiOH.github.io/posts/2026-08-19/</link>
       <pubDate>Wed, 19 Aug 2026 23:37:15 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2026-08-19/</guid>
+      <guid>https://7LiOH.github.io/posts/2026-08-19/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本实验非教材实验，过程难免缺乏严谨性，仅供参考&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -99,26 +122,23 @@ $$ \eta = \dfrac{c_\text{水}\rho_\text{水}V(T_2 - T_1)}{q_\text{酒精}(m_1 - 
     </item>
     <item>
       <title>探究最佳抛射角问题</title>
-      <link>http://localhost:1313/posts/2026-08-14/</link>
+      <link>https://7LiOH.github.io/posts/2026-08-14/</link>
       <pubDate>Fri, 14 Aug 2026 23:37:15 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2026-08-14/</guid>
+      <guid>https://7LiOH.github.io/posts/2026-08-14/</guid>
       <description>&lt;p&gt;随着14世纪左右火炮在欧洲的登场，如何精确射击成为迫切需求，这直接催生了弹道学研究&lt;/p&gt;
 &lt;p&gt;以下为对起止点在同一水平面的探究（&lt;strong&gt;不考虑空气阻力&lt;/strong&gt;）&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;可将&lt;strong&gt;斜抛运动&lt;/strong&gt;分解为&lt;strong&gt;水平方向的匀速直线运动&lt;/strong&gt;与&lt;strong&gt;竖直方向的竖直上抛运动&lt;/strong&gt;进行分析&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;规定水平向右为 $x$ 轴正方向，竖直向上为 $y$ 轴正方向，设该物体向右抛出&lt;/p&gt;
-&lt;p&gt;设物体初速度为 $v$，与水平面夹角为 $\theta$，易得初速度 $v$ 的水平与竖直分量为
-&lt;/p&gt;
+&lt;p&gt;设物体初速度为 $v$，与水平面夹角为 $\theta$，易得初速度 $v$ 的水平与竖直分量为&lt;/p&gt;
 $$ v_x = v\cos\theta $$&lt;p&gt;
 &lt;/p&gt;
 $$ v_y = v\sin\theta $$&lt;p&gt;由于平抛运动具有&lt;strong&gt;对称性&lt;/strong&gt;，所以当物体的竖直速度与物体初竖直速度矢量和为 $0$ 时，物体落地&lt;/p&gt;
-&lt;p&gt;由 $v = v_0 + at$ 得，
-&lt;/p&gt;
+&lt;p&gt;由 $v = v_0 + at$ 得，&lt;/p&gt;
 $$ -v_y = v_y - gt $$&lt;p&gt;
 &lt;/p&gt;
-$$ t = \dfrac{2v_y}{g} = \dfrac{2v\sin\theta}{g} $$&lt;p&gt;将 $t = \dfrac{2v\sin\theta}{g}$ 代入 $v = \dfrac{x}{t}$ 得
-&lt;/p&gt;
+$$ t = \dfrac{2v_y}{g} = \dfrac{2v\sin\theta}{g} $$&lt;p&gt;将 $t = \dfrac{2v\sin\theta}{g}$ 代入 $v = \dfrac{x}{t}$ 得&lt;/p&gt;
 $$ v_x = \frac{x}{t} $$&lt;p&gt;
 &lt;/p&gt;
 $$ x = v_xt = v\cos\theta \cdot \dfrac{2v\sin\theta}{g} = \dfrac{2v^2\sin\theta\cos\theta}{g} $$&lt;p&gt;即转换为求关于 $x$ 与 $\theta$ 的函数的最大值&lt;/p&gt;</description>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>高中 on 7LiOH</title>
-    <link>https://7LiOH.github.io/tags/%E9%AB%98%E4%B8%AD/</link>
-    <description>Recent content in 高中 on 7LiOH</description>
+    <title>大学 on 7LiOH</title>
+    <link>https://7LiOH.github.io/tags/%E5%A4%A7%E5%AD%A6/</link>
+    <description>Recent content in 大学 on 7LiOH</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Aug 2026 15:08:44 +0800</lastBuildDate>
-    <atom:link href="https://7LiOH.github.io/tags/%E9%AB%98%E4%B8%AD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://7LiOH.github.io/tags/%E5%A4%A7%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从向量叉乘理解左手定则</title>
       <link>https://7LiOH.github.io/posts/2026-08-20/</link>
@@ -30,29 +30,6 @@ $$ k\bm{a} \times \bm{b} = \bm{a} \times k\bm{b} = k(\bm{a} \times \bm{b}) $$&lt
     &lt;img src=&#34;./images/P3.png&#34; alt=&#34;图3&#34; style=&#34;width: 45%; display: block; margin: 0 auto;&#34;&gt;
 &lt;/div&gt;
 &lt;p&gt;实际上，高中教材中的公式并未完全采用矢量写法，矢量点乘与叉乘也未作区分&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>探究最佳抛射角问题</title>
-      <link>https://7LiOH.github.io/posts/2026-08-14/</link>
-      <pubDate>Fri, 14 Aug 2026 23:37:15 +0800</pubDate>
-      <guid>https://7LiOH.github.io/posts/2026-08-14/</guid>
-      <description>&lt;p&gt;随着14世纪左右火炮在欧洲的登场，如何精确射击成为迫切需求，这直接催生了弹道学研究&lt;/p&gt;
-&lt;p&gt;以下为对起止点在同一水平面的探究（&lt;strong&gt;不考虑空气阻力&lt;/strong&gt;）&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;可将&lt;strong&gt;斜抛运动&lt;/strong&gt;分解为&lt;strong&gt;水平方向的匀速直线运动&lt;/strong&gt;与&lt;strong&gt;竖直方向的竖直上抛运动&lt;/strong&gt;进行分析&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;规定水平向右为 $x$ 轴正方向，竖直向上为 $y$ 轴正方向，设该物体向右抛出&lt;/p&gt;
-&lt;p&gt;设物体初速度为 $v$，与水平面夹角为 $\theta$，易得初速度 $v$ 的水平与竖直分量为&lt;/p&gt;
-$$ v_x = v\cos\theta $$&lt;p&gt;
-&lt;/p&gt;
-$$ v_y = v\sin\theta $$&lt;p&gt;由于平抛运动具有&lt;strong&gt;对称性&lt;/strong&gt;，所以当物体的竖直速度与物体初竖直速度矢量和为 $0$ 时，物体落地&lt;/p&gt;
-&lt;p&gt;由 $v = v_0 + at$ 得，&lt;/p&gt;
-$$ -v_y = v_y - gt $$&lt;p&gt;
-&lt;/p&gt;
-$$ t = \dfrac{2v_y}{g} = \dfrac{2v\sin\theta}{g} $$&lt;p&gt;将 $t = \dfrac{2v\sin\theta}{g}$ 代入 $v = \dfrac{x}{t}$ 得&lt;/p&gt;
-$$ v_x = \frac{x}{t} $$&lt;p&gt;
-&lt;/p&gt;
-$$ x = v_xt = v\cos\theta \cdot \dfrac{2v\sin\theta}{g} = \dfrac{2v^2\sin\theta\cos\theta}{g} $$&lt;p&gt;即转换为求关于 $x$ 与 $\theta$ 的函数的最大值&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
