@@ -94,8 +94,11 @@ $$ T = \dfrac{2\pi}{\dfrac{qB}{m}} = \dfrac{2\pi m}{qB} $$
 
 $$ r = \dfrac{mv}{qB} $$
 $$ T = \dfrac{2\pi m}{qB} $$
-<p align="right">$\square$</p>
 
 <div style="text-align: center;">
     <img src="./images/P7.png" alt="图7" style="width: 50%; display: block; margin: 0 auto;">
 </div>
+
+<p align="right">$\square$</p>
+
+---
